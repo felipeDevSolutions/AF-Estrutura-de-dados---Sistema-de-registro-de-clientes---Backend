@@ -19,8 +19,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/cliente")
-@CrossOrigin(origins = {"http://localhost:3000", "https://af-estrutura-de-dados-sistema-de-registro-de-cliente-frontend.vercel.app/"})
-
+@CrossOrigin(origins = "http://localhost:3000")
 public class ClienteController {
 
     private final Hash hash;
